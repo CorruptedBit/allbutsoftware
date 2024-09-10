@@ -1,2 +1,2 @@
-# allbutsoftware
-Notes and memos into the software realm
+# All about software
+Notes and memos around the software realm.
