@@ -24,7 +24,7 @@ com.visualstudio.code \
 com.visualstudio.code.tool.podman
 ```
 
-The podman tool is essential in order to allow to flatpak vscode to communicate with a podman socket on the host and must be installed _within the flatpaks system_. In fedora Silverblue 'podman' comes pre-installed. **This guide assumes that podman is already installed on the host system**.
+The podman tool is essential in order to allow to flatpak vscode to communicate with a podman socket on the host and must be installed _within the flatpaks system_. In fedora Silverblue 'podman' comes pre-installed. **This guide assumes that podman is already installed on the host system**. By giving the command 'com.visualstudio.code.tool.podman', you are probably asked to indicate one of the available versions. In my experience, the stable version does not work and one must opt for the 24.
 
 ### Start podman socket
 
